@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    margin: 0 auto;
+    width: 950px;
+    background: #FFFAFA;
+    border: 2px solid #fff;
+    font-family: cursive, sans-serif;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+p{
+  font-size: 16px;
+  color:rgb(84, 77, 77);
+}
+li {
+  color:rgb(116, 105, 105);
+}
+.header {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px;
+  font-size: 16px;
+  box-sizing: content-box;
+}
+
+a {
+  font-weight: 600;
+  font-size: 20px;
+  
+  color: rgb(20, 69, 174);
+}
+
+img {
+  width: inherit;
+  max-height: 250px;
+  border-radius: 20%;
+  transition: 1s;
+}
+@media (max-width: 410px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+  }
+ 
+}
+@media (max-width: 910px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+}
+.description {
+  flex-wrap:wrap ;
+  margin-left: 15px;
+}
+
+.skill-block-title {
+    margin:20px 10px;
+}
+.section {
+    flex: 0 1 auto;
+    
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+    font-size: 16px;
+}
+@media (max-width: 910px) {
+    .section {
+        flex: 1 1 auto;
+        font-size: 14px;
+      text-align: left;
+    }
+}
+@media (max-width: 410px) {
+    .section {
+        text-align: center;
+        margin: 0px 15px;
+    }
+}
+
+a {
+  color:rgb(116, 105, 105);
+  text-decoration: none;
+  transition: .5s;
+
+}
+a:hover {
+  color: orangered;
+}
+/* Footer */
+
+.footer{
+  width: 100%;
+  background-color: #FFFAFA;
+  padding: 30px 0 25px 0px;
+ 
+  
+  
+}
+
+.footer__list{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social-icon{
+  margin-right: 30px;
+  color: #4f001598 ;
+  transition: 1s;
+}
+.social-icon:last-child{
+  margin-right: 0;
+}
+
+
+.social-icon:hover {
+  transform: scale(1.5);
+  color: rgb(77, 24, 102);
+  opacity: .5;
+}
+
+img:hover {
+  transform: scale(1.3);
+  
+}
+ 
